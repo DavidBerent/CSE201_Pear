@@ -10,9 +10,18 @@ public class Administrator extends Moderator {
 	
 	}
 	
+	/*
+	* the user is approved to submit their app
+	* param @r - the request that is used to make sure the person can post their app
+	*/
 	public boolean approveForm(Request r) {
 		return false;
 	}
+	
+	/*
+	* the user is not authorized to post their app
+	* param @r - the request that is used to make sure the person can post their app
+	*/
 	public boolean rejectForm(Request r) {
 		return false;
 		
